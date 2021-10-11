@@ -7,7 +7,7 @@ type propsDialogType = {
     id: number
 }
 
-export const Dialogs = ({name, id, ...props}: propsDialogType) => {
+export const Dialogs = ({name, id}: propsDialogType) => {
     let path = '/messages/' + id
     return (
         <div className={s.dialog}>

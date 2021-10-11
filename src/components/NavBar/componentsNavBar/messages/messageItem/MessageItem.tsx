@@ -6,7 +6,7 @@ type propsMessageItemType = {
     id: number
 }
 
-export const MessageItem = ({message, id, ...props}: propsMessageItemType) => {
+export const MessageItem = ({message}: propsMessageItemType) => {
     return (
         <div className={s.messageItem}>{message}</div>
     )

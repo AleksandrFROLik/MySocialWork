@@ -1,5 +1,5 @@
 import React from "react";
-import  s from'./ProFile.module.css'
+import  s from './ProFile.module.css'
 
 export const ProFile = () => {
     return(
