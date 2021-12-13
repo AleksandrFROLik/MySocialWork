@@ -10,7 +10,7 @@ type propsDialogType = {
 export const Dialogs = ({name, id}: propsDialogType) => {
     let path = '/messages/' + id
     return (
-        <div className={s.dialog}>
+        <div className={s.dialog + ' ' + s.active}>
             <NavLink to={path}>{name}</NavLink>
         </div>
     )

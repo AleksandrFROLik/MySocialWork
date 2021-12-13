@@ -5,24 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {state} from "./components/Redux/Redax";
 
-// let dialogData = [
-//         {id: 1, name: 'Ivan'},
-//         {id: 2, name: 'Anton'},
-//         {id: 3, name: 'Petr'},
-//         {id: 4, name: 'Egor'},
-//         {id: 5, name: 'Anna'},
-//         {id: 6, name: 'Sveta'},
-//         {id: 7, name: 'Tania'},
-//     ]
-//
-//
-//     let messageData = [
-//         {id: 1, message: 'Hello!'},
-//         {id: 2, message: 'Hello'},
-//         {id: 3, message: 'How are you?'},
-//         {id: 4, message: 'Bye!'},
-//
-//     ]
 
 ReactDOM.render(
   <React.StrictMode>

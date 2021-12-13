@@ -7,14 +7,15 @@
 
 }
 
-.dialog {
-
+.dialog  a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: blue;
 }
 
-.messages{
-
+ .active   {
+    text-decoration: none;
+    padding-left: 10px;
+    color: gold;
 }
 
-.message {
-
-}

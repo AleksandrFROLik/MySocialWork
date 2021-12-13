@@ -14,6 +14,7 @@ import {stateType} from "./components/Redux/Redax";
 
 type AppType = {
     state: stateType
+    // state:boolean
 }
 
 
@@ -27,7 +28,7 @@ function App({state}: AppType) {
                     <Header/>
                     <NavBar/>
                     <div className="app-wrapper-content">
-                        <Route  path='/myProFile' component={MyProFile}/>
+                        <Route  path='/myProFile' render={()=><MyProFile posts={state.posts}/>}/>
                         <Route  path='/news' component={News}/>
                         <Route  path='/messages' render={()=><Messages messagePage={state.messagePage}/> }/>
                         <Route  path='/friends' component={Friends}/>
